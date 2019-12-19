@@ -1,0 +1,57 @@
+
+/* Mobile Layout */
+/* 
+Extra small <576px 	
+Small ≥576px 	
+Medium ≥768px 	
+Large ≥992px 	
+Extra large ≥1200px 
+*/
+
+
+.main-hdr-top{
+    height: 50px;
+    background-color: #f72210;
+}
+
+.main-hdr-date{
+    display: none;
+}
+
+.main-hdr-logo svg{
+    width: 132px;
+    height: 20px;
+    overflow: scroll;
+    fill: #fff;
+}
+
+.main-hdr-btns{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-bars{
+    color: rgb(251, 154, 148);
+    font-size: 30px;
+}
+
+.main-hdr-btns button{
+    background-color: transparent;
+    /* width: 80px; */
+    border: none;
+}
+
+.main-hdr-btns a{
+        display: inline-block;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    min-width: 40px;
+    color: white;
+
+}
+
+.main-hdr-btns button:last-child{
+    width: 40px;
+}
+
+
