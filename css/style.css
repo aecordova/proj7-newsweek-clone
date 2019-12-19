@@ -21,37 +21,22 @@ Extra large ≥1200px
 .main-hdr-logo svg{
     width: 132px;
     height: 20px;
-    overflow: scroll;
     fill: #fff;
 }
-
-.main-hdr-btns{
-    display: flex;
-    justify-content: flex-end;
-}
+ 
 
 .fa-bars{
     color: rgb(251, 154, 148);
     font-size: 30px;
 }
 
-.main-hdr-btns button{
-    background-color: transparent;
-    /* width: 80px; */
-    border: none;
+.main-hdr-btns-links a{    
+    font: bold 14px "Roboto Condensed" ,sans-serif;
 }
 
-.main-hdr-btns a{
-        display: inline-block;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    min-width: 40px;
-    color: white;
-
+.main-hdr-btns-links a:hover{    
+    text-decoration: none;
 }
 
-.main-hdr-btns button:last-child{
-    width: 40px;
-}
 
 
