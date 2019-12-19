@@ -29,12 +29,16 @@ Extra large ≥1200px
     font-size: 28px;
 }
 
-.main-hdr-btns-links a{
-    display: inline-block;    
-    font: bold 14px "Roboto Condensed" ,sans-serif;
+.main-hdr-btns-links a,
+.block-hdr,
+.cat-badge{
+    display: block;    
+    font: bold .9rem "Roboto Condensed" ,sans-serif;
     padding: .3em .3em;
-    line-height: 14px;
+    line-height: 1.1rem;
+    text-transform: uppercase;
 }
+
 
 .main-hdr-btns-links a:last-child{    
     color: #f72210
@@ -42,6 +46,38 @@ Extra large ≥1200px
 
 .main-hdr-btns-links a:hover{    
     text-decoration: none;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.h2{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.h2 a{
+    color: black;
+}
+
+.cat-badge{
+    padding: 9px 15px;
+    bottom: 0;
+    color: #f72210;
+    font-size: 1.1rem;
+}
+
+.story-text{
+    font-size: .8em;
+}
+
+.h3{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
 }
 
 
