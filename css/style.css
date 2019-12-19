@@ -8,7 +8,7 @@ Large ≥992px
 Extra large ≥1200px 
 */
 
-
+/* Header */
 .main-hdr-top{
     height: 50px;
     background-color: #f72210;
@@ -24,14 +24,20 @@ Extra large ≥1200px
     fill: #fff;
 }
  
-
 .fa-bars{
     color: rgb(251, 154, 148);
-    font-size: 30px;
+    font-size: 28px;
 }
 
-.main-hdr-btns-links a{    
+.main-hdr-btns-links a{
+    display: inline-block;    
     font: bold 14px "Roboto Condensed" ,sans-serif;
+    padding: .3em .3em;
+    line-height: 14px;
+}
+
+.main-hdr-btns-links a:last-child{    
+    color: #f72210
 }
 
 .main-hdr-btns-links a:hover{    
