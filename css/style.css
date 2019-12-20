@@ -1,14 +1,6 @@
 
 /* Mobile Layout */
-/* 
-Extra small <576px 	
-Small ≥576px 	
-Medium ≥768px 	
-Large ≥992px 	
-Extra large ≥1200px 
-*/
 
-/* Header */
 .main-hdr-top{
     height: 50px;
     background-color: #f72210;
@@ -72,13 +64,20 @@ Extra large ≥1200px
 
 .story-text{
     font-size: .8em;
+    clear: both;
 }
 
 .h3{
     font-size: 1.2rem;
     line-height: 1.2rem;
 }
+
+.h4{
+    font-size: 1em;
 }
 
+.more-stories h4{
+    margin-left: 9rem;
+}
 
 
