@@ -36,7 +36,8 @@
     color: #f72210
 }
 
-.main-hdr-btns-links a:hover{    
+.main-hdr-btns-links a:hover,
+.culture-art-cat:hover {    
     text-decoration: none;
 }
 
@@ -80,4 +81,21 @@
     margin-left: 9rem;
 }
 
+.culture-art-cat{
+    background-color: #c2d4d7;
+    color: black;
+    font: normal .8rem "Arial" , serif;
+    border-radius: 0;
+    text-transform: capitalize;
+}
+.culture-art-cat:hover{
+    background-color:#272727;
+    color:#c2d4d7;
+}
 
+.culture-art-title{
+    font: normal 1.2rem "Helvetica Neue";
+}
+.culture-art-text{
+    font: normal 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+}
