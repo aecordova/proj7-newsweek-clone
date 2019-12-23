@@ -78,7 +78,7 @@
 }
 
 .h5{
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .opinion .h5{
@@ -105,10 +105,12 @@
     font: normal 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
 }
 
-.opinion-body a{
+.opinion-body a,
+.latest-news-title{
     color: black;
 }
-.opinion-body a:hover{
+.opinion-body a:hover,
+.latest-news-title:hover{
     color: #f72210;
     text-decoration: none;
 }
