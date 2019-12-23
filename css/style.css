@@ -116,7 +116,7 @@
     text-decoration: none;
 }
 
-.sign-up-icon{
+.news-icon{
     display: block;
     width: 29px;
     height: 28px;
@@ -147,5 +147,47 @@
     font-size: 12px;
 }
 
+.play-icon{
+    bottom: 0;
+    font-size: 40px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    background-color: #f72210;
+    color: #fff;
+    text-align: center;
+}
+
+.conv-body{
+    background-color: black;
+}
+
+.conv-feat-video-title a,
+.conv-video-title a{
+    color: #fff;
+}
+.conv-feat-video-title:hover a,
+.conv-video-title:hover a{
+    text-decoration-color:red ;
+}
+
+.conv-feat-video p{
+    color: #c6c6c6;
+}
+
+.conv-feat-video time,
+.conv-video time{
+    font-size: .9em;
+    color: #777;
+}
+.conv-video .play-icon{
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    background-color: #f72210;
+    color: #fff;
+    text-align: center;
+}
 
 
