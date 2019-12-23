@@ -37,7 +37,8 @@
 }
 
 .main-hdr-btns-links a:hover,
-.culture-art-cat:hover {    
+.culture-art-cat:hover,
+.sign-up-btn a:hover{    
     text-decoration: none;
 }
 
@@ -114,3 +115,37 @@
     color: #f72210;
     text-decoration: none;
 }
+
+.sign-up-icon{
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.sign-up-btn{
+    background-color: #666;
+    border-radius: 0;
+}
+
+.sign-up-btn a::after{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.sign-up-btn:hover{
+    text-decoration: none;
+    background-color: #999;
+}
+
+.sign-up-pref{
+    font-size: 12px;
+}
+
+
+
