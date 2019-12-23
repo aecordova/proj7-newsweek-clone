@@ -61,7 +61,8 @@
 .mag-btn a,
 .opinion-body a,
 .latest-news-title,
-.mag-title a{
+.mag-title a,
+.eds-pick-story-title a{
     color: black;
 }
 
