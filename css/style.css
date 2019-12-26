@@ -137,7 +137,8 @@
 }
 
 .sign-up-btn a::after,
-.mag-btn a::after{
+.mag-btn a::after,
+.subs-btn a::after{
     content: "";
     display: inline-block;
     width: 8px;
@@ -145,7 +146,8 @@
     margin-left: 10px;
 }
 
-.sign-up-btn a::after{
+.sign-up-btn a::after,
+.subs-btn a::after{
     background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
@@ -240,6 +242,22 @@
 .news-hdr{
     color:#e9212e;
     display: block;
+}
+
+.subs-img-cont{
+    height: 237px;
+    width: fit-content;
+    width: 255px;
+}
+
+.subs-cover-2{
+    top: 10px;
+    left: 31%;
+}
+
+.subs-btn{
+    background-color: #f72210;
+    border-radius: 0;
 }
 
 
