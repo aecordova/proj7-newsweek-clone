@@ -41,7 +41,9 @@
 .culture-art-cat:hover,
 .sign-up-btn a:hover,
 .mag-btn a:hover,
-.mag-cat2 a:hover{    
+.mag-cat2 a:hover,
+.subs-btn:hover,
+footer a:hover{
     text-decoration: none;
 }
 
@@ -75,7 +77,8 @@
     font-size: 1.1em;
 }
 
-.story-text{
+.story-text,
+.footer-bottom{
     font-size: .8em;
 }
 
@@ -270,5 +273,29 @@
     background-color: #f72210;
     border-radius: 0;
 }
+.subs-btn:hover{
+    background-color: #de1f0e;
+}
+footer li a{
+    color: grey;
+}
+
+.footer-logo svg{
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    fill: #f72210;
+}
+.footer-top ul{
+    font-size: 25px;
+    line-height: 25px;
+    color: grey;
+}
+.footer-top li a:hover i{
+    color: #405de6;
+}
+
+
 
 
