@@ -63,7 +63,8 @@
 .latest-news-title,
 .mag-title a,
 .eds-pick-story-title a,
-.slideshow-title a{
+.slideshow-title a,
+.news-title a{
     color: black;
 }
 
