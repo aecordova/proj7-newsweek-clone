@@ -244,6 +244,17 @@
     display: block;
 }
 
+.subscribe{
+    border-top: 2px solid rgb(244, 245, 246);
+    border-bottom: 2px solid rgb(244, 245, 246);
+    padding-bottom: 2rem;
+
+}
+.subs-box .block-hdr,
+.newsltr-box .block-hdr{
+    color: #f72210;
+}
+
 .subs-img-cont{
     height: 237px;
     width: fit-content;
