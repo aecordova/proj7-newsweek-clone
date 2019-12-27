@@ -1,4 +1,3 @@
-
 /* Mobile Layout */
 
 .main-hdr-top {
@@ -72,6 +71,7 @@ footer a:hover {
 .mag-title a,
 .eds-pick-story-title a,
 .slideshow-title a,
+.news-title,
 .news-title a {
   color: black;
 }
@@ -191,6 +191,15 @@ footer a:hover {
 
 .conv-body {
   background-color: black;
+}
+.conv-video-thumb-1 {
+  background: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95") 50%/cover no-repeat;
+}
+.conv-video-thumb-2 {
+  background: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f") 50%/cover no-repeat;
+}
+.conv-video-thumb-3 {
+  background: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f") 50%/cover no-repeat;
 }
 
 .conv-feat-video-title a,
@@ -336,12 +345,8 @@ footer li a {
         padding: 3px 7px;
     }
     .more-stories-fig,
-    .latest-news-fig{
+    .latest-news-fig,
+    .news-fig{
         width: 258px;
     }
-
-
-}
-@media screen and (min-width:767px){
-    
 }
