@@ -5,7 +5,7 @@
   background-color: #f72210;
 }
 
-.main-hdr-date,
+
 .subs-hdr-btn svg {
   display: none;
 }
@@ -23,12 +23,15 @@
 
 .main-hdr-btns-links a,
 .block-hdr,
-.cat-badge {
+.cat-badge{
   display: block;
   font: bold 14px "Roboto Condensed", sans-serif;
   padding: 0.3em 0.3em;
   line-height: 14px;
   text-transform: uppercase;
+}
+.main-hdr-date{
+  font: 16px "Roboto Condensed", sans-serif;
 }
 
 .main-hdr-btns-links a:last-child,
@@ -43,7 +46,8 @@
 .mag-btn a:hover,
 .mag-cat2 a:hover,
 .subs-btn:hover,
-footer a:hover {
+footer a:hover,
+.main-hdr-nav a:hover {
   text-decoration: none;
 }
 
@@ -72,7 +76,8 @@ footer a:hover {
 .eds-pick-story-title a,
 .slideshow-title a,
 .news-title,
-.news-title a {
+.news-title a,
+.main-hdr-nav a {
   color: black;
 }
 
@@ -128,7 +133,8 @@ footer a:hover {
 }
 
 .opinion-body a:hover,
-.latest-news-title:hover {
+.latest-news-title:hover,
+.main-hdr-nav a:hover {
   color: #f72210;
   text-decoration: none;
 }
@@ -375,6 +381,64 @@ footer li a {
   .newsltr-img-cont{
     height: 191px;
     width: 210px;
+  }
+
+}
+
+@media screen and (min-width:991px){
+  .main-hdr-logo svg{
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
+  .main-hdr-top{
+    height: 94px;
+  }
+  
+  .main-hdr-nav{
+    border-bottom: 2px solid rgb(244, 245, 246);
+  }
+  .main-hdr-nav::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 90px;
+    background-color:#f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid#f72210;
+  }
+  .main-hdr-nav li{
+    width: 100%;
+    text-align: center;
+    white-space:nowrap;
+  }
+  .search-form label{
+    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+    width: 20px;
+    height: 25px;
+    clip: auto;
+    font-size: 0;
+    margin: auto;
+  }
+  .search-form input{
+    width: 60px;
+    height: 25px;
+  }
+  .search-form input::placeholder{
+    color: grey;
+  }
+
+  .search-form{
+    margin-right: 90px;
+  }
+  .search-form input:focus{
+    transition: all .3s ease;
+    position: absolute;
+    right: 113px;
+    width: calc(100% - 113px);
+    text-indent: 15px;
   }
 
 }

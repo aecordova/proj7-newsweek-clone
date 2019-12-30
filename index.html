@@ -19,7 +19,7 @@
     <body>
       <header class="main-hdr container-fluid px-0 m-0">
         <div class="main-hdr-top align-items-center justify-content-between d-flex flex-row flex-nowrap pl-3">
-          <p class="main-hdr-date">ddd, mm, yyyy</p>
+          <p class="main-hdr-date d-none d-lg-block text-white align-self-end"><script> document.write(new Date().toDateString()); </script></p>
           <div class="main-hdr-logo">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
               <g>
@@ -27,7 +27,7 @@
               </g>
             </svg>
           </div>
-          <div class="main-hdr-btns d-inline-flex  justify-content-end">
+          <div class="main-hdr-btns d-inline-flex justify-content-end align-self-end mb-lg-3 pr-2">
             <div class="main-hdr-btns-links btn-group m-0">
               <button class="btn btn-link p-0">
                 <a href="#"class="pr-1 text-white text-nowrap">sign in</a>
@@ -50,12 +50,30 @@
                 </a>
               </button>
             </div>
-           <button class="btn btn-link">
+           <button class="btn btn-link d-lg-none">
              <a href="#">
                <span class="fa fa-bars"></span>
              </a>
           </button>
          </div>
+        </div>
+        <div class="main-hdr-nav d-none d-lg-flex justify-content-between position-relative">
+          <form action="" class="search-form order-2 py-3 d-flex flex-nowrap align-items-center">
+            <input id="search-bar"type="text" class="border-0" placeholder="Search">
+            <label for="search-bar">search</label>
+          </form>
+          <ul class="list-inline text-capitalize py-3 my-0 justify-content-between d-flex flex-lg-nowrap w-100">
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">U.S.</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">world</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">business</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">tech & science</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">culture</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">newsgeek</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">sports</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">health</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 border-right mx-0 px-2 d-block" href="#">opinion</a></li>
+            <li class="list-inline-item mx-0"><a class="h4 my-0 mx-0 px-2 d-block" href="#">vantage</a></li>
+          </ul>
         </div>
       </header>
       <main class="px-3">
