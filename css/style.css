@@ -136,6 +136,9 @@ footer a:hover {
 .more-stories-fig{
     width: 135px;
 }
+.sponsored{
+  max-width: 330px;
+}
 .sign-up-box{
     width: 300px;
     margin: 0 auto;
@@ -305,6 +308,12 @@ footer a:hover {
   background-color: #de1f0e;
 }
 
+.newsltr-img-cont{
+  height: 191px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+}
+
 footer li a {
   color: grey;
 }
@@ -349,4 +358,23 @@ footer li a {
     .news-fig{
         width: 258px;
     }
+}
+
+@media screen and (min-width:768px){
+  .more-stories-fig,
+  .latest-news-fig,
+  .news-fig{
+      width: 135px;
+  }
+
+ .mag-item img{
+    display: block;
+    height: 173px;
+    width: 200px;
+  }
+  .newsltr-img-cont{
+    height: 191px;
+    width: 210px;
+  }
+
 }
