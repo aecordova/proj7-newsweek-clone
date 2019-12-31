@@ -210,6 +210,12 @@ footer a:hover,
 .conv-video-thumb-3 {
   background: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f") 50%/cover no-repeat;
 }
+.conv-video-thumb-1,
+.conv-video-thumb-2,
+.conv-video-thumb-3{
+  max-width: 135px;
+}
+
 
 .conv-feat-video-title a,
 .conv-video-title a {
@@ -439,6 +445,11 @@ footer li a {
     right: 113px;
     width: calc(100% - 113px);
     text-indent: 15px;
+  }
+
+  .newsltr-img-cont{
+    height: 285px;
+    width: 210px;
   }
 
 }
